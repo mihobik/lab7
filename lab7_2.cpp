@@ -4,7 +4,7 @@ using namespace std;
 
 // функция для вычисления длины Sn = 2^n - 1
 long long length_s(int n) {
-    return (1LL << n) - 1;
+    return (1LL << n) - 1; // 1LL — это целое число 1 типа (int) long long. "Вернуть число 2^n - 1, при этом вычисления проводить в типе long long"
 }
 
 // функция для поиска k-го бита в Sn
